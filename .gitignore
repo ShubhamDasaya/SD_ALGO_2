@@ -1,0 +1,34 @@
+# Environment variables and credentials
+config.env
+.env
+*.env
+*.token
+*.key
+*.pem
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual Environments
+env/
+venv/
+.venv/
+
+# Large Instrument Directory Cache
+scrip_master_cache.json
+
+# Logs
+logs/
+*.log
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
